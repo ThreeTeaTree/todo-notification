@@ -40,6 +40,5 @@ app.add_middleware(
     allow_methods=['*'],
     allow_headers=['*'],
 )
-hSVDIjdg
 app.include_router(service_info)
 app.include_router(notification_services)
